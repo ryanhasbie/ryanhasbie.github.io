@@ -1,4 +1,8 @@
 @media (max-width: 576px) {
+    body {
+        width: 100%;
+    }
+
     .tentang-saya .garis {
         display: none;
         width: 0px;
