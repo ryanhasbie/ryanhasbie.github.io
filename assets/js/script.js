@@ -1,6 +1,6 @@
 const dark = document.getElementById('dark');
 
-dark.onclick = function () {
+function darkMode() {
     document.body.classList.toggle('dark');
 
     const navbar = document.getElementById('navbar');

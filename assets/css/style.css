@@ -50,6 +50,9 @@ h1 {
     color: #FF884B;
 }
 
+.navbar .navbar-nav span {
+    cursor: pointer;
+}
 
 .clr {
     background-color: #FFFDDE;
