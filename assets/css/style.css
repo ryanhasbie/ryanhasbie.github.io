@@ -1,5 +1,7 @@
 @media (max-width: 676px) {
-    .tentang-saya h1 {
+
+    .tentang-saya h1,
+    .portofolio h1 {
         text-align: center;
     }
 
@@ -10,6 +12,10 @@
 
     .tentang-saya .name {
         text-align: center;
+    }
+
+    .portofolio .card {
+        margin: 10px auto;
     }
 }
 
@@ -38,7 +44,7 @@ h1 {
 }
 
 
-.hero {
+.clr {
     background-color: #FFFDDE;
 }
 
