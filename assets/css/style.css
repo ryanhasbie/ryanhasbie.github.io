@@ -1,13 +1,19 @@
 @media (max-width: 676px) {
 
     .tentang-saya h1,
-    .portofolio h1 {
+    .portofolio h1,
+    .kemampuan h1 {
         text-align: center;
     }
 
     .tentang-saya img {
         display: block;
         margin: auto;
+    }
+
+    .kemampuan img {
+        display: block;
+        margin: 10px auto;
     }
 
     .tentang-saya .name {
@@ -51,4 +57,11 @@ h1 {
 .hero .btn {
     background-color: #FF884B;
     color: #FFFDDE;
+}
+
+.hero,
+.tentang-saya,
+.portofolio,
+.kemampuan {
+    padding: 20px;
 }
