@@ -55,14 +55,25 @@ h1 {
     background-color: #FFFDDE;
 }
 
-.hero .btn {
+.hero .btn,
+.komentar .btn {
     background-color: #FF884B;
     color: #FFFDDE;
 }
 
-.tentang-saya,
+/* .tentang-saya,
 .portofolio,
 .kemampuan,
 .komentar {
     padding: 20px;
+} */
+
+.footer .icon a {
+    color: #FF884B;
+    margin-left: 10px;
+}
+
+.footer .text i {
+    color: red;
+    margin-top: 10px;
 }
