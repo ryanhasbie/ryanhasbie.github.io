@@ -35,6 +35,7 @@ html {
 }
 
 body {
+    box-sizing: border-box;
     font-family: 'MontserratAlternates';
     color: #FF884B;
 }
@@ -59,9 +60,9 @@ h1 {
     color: #FFFDDE;
 }
 
-.hero,
 .tentang-saya,
 .portofolio,
-.kemampuan {
+.kemampuan,
+.komentar {
     padding: 20px;
 }
