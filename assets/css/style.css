@@ -1,3 +1,18 @@
+@media (max-width: 576px) {
+    .tentang-saya h1 {
+        text-align: center;
+    }
+
+    .tentang-saya img {
+        display: block;
+        margin: auto;
+    }
+
+    .tentang-saya .name {
+        text-align: center;
+    }
+}
+
 @font-face {
     font-family: 'MontserratAlternates';
     src: url("../libs/fonts/montserrat.otf");
