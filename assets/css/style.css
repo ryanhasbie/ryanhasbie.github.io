@@ -88,3 +88,7 @@ h1 {
 .display {
     display: none;
 }
+
+.margin {
+    margin-top: 30px;
+}

@@ -9,16 +9,19 @@ function darkMode() {
     const hero = document.getElementById('hero');
     hero.classList.toggle('clr');
 
+    const tentangSaya = document.getElementById('tentang-saya');
+    tentangSaya.classList.toggle('margin');
+
     const portofolio = document.getElementById('portofolio');
     portofolio.classList.toggle('clr');
-    portofolio.style.marginTop = '50px';
+    portofolio.classList.toggle('margin');
 
     const kemampuan = document.getElementById('kemampuan');
-    kemampuan.style.marginTop = '50px';
+    kemampuan.classList.toggle('margin');
 
     const komentar = document.getElementById('komentar');
     komentar.classList.toggle('clr');
-    komentar.style.marginTop = '50px';
+    komentar.classList.toggle('margin');
 
     const path = document.getElementById('path');
     path.classList.toggle('display');
